@@ -9,7 +9,6 @@ RUN npm install -g @modelcontextprotocol/server-brave-search
 RUN npm install -g @abhiz123/todoist-mcp-server
 RUN npm install -g @modelcontextprotocol/server-gdrive
 RUN npm install -g @modelcontextprotocol/server-google-maps
-RUN npm install -g mcp/sequentialthinking
 
 # Revert to the node user for security purposes
 USER node
